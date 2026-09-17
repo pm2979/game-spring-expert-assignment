@@ -1,5 +1,15 @@
 # 과제 요구사항 (필수)
 
+## 공통 규칙
+
+- Controller, Service, Repository를 분리하여 3 Layer Architecture로 개발해야 합니다.
+- 엔티티 연관관계는 단방향으로만 사용합니다.
+- CRUD 기능은 Docker로 실행한 MySQL과 JPA를 사용해서 개발해야 합니다.
+- 게임이 프로젝트에 포함되어 있습니다. 스프링 애플리케이션 실행 후 `http://localhost:8080`에서 플레이 가능합니다.
+- API 경로, JSON 필드, enum 값은 API 명세와 정확히 일치해야합니다.
+- 뼈대에 있는 기존 클래스 이름과 패키지는 바꾸지 않습니다.
+- API 문서: https://f-api.github.io/game-spring-api-docs/expert/api-docs.html
+
 ### Lv 1. Docker로 MySQL과 Redis 설정 `필수`
 
 - [ ] Docker로 MySQL과 Redis를 실행합니다.
